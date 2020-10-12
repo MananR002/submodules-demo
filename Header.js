@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = (props) => {
-    console.log("Hello There whats up!")
+    console.log("Hello Header!")
     return (
         <div style = {{color:"red"}}>
             <p>{props.name}</p>
