@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
     console.log("Hello")
     return (
         <div style = {{color:"red"}}>
-            Hello
+            <p>{props.name}</p>
         </div>
     )
 }
